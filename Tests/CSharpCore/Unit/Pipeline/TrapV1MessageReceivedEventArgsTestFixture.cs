@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Net;
 using Lextm.SharpSnmpLib;
 using Lextm.SharpSnmpLib.Messaging;
-using Samples.Pipeline;
+using NooN.SnmpEngine.Pipeline;
 using Xunit;
 
 namespace Samples.Unit.Pipeline

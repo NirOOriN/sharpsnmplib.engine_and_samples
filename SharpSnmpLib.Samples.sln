@@ -34,7 +34,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.Engine", "Samples.Engine\Samples.Engine.csproj", "{114D0D49-19D3-47AA-B314-B0611F8A0327}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnmpEngine", "SnmpEngine\SnmpEngine.csproj", "{114D0D49-19D3-47AA-B314-B0611F8A0327}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

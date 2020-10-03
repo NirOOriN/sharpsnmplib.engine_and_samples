@@ -145,14 +145,14 @@
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Samples.Engine\Samples.Engine.csproj">
-      <Project>{114d0d49-19d3-47aa-b314-b0611f8a0327}</Project>
-      <Name>Samples.Engine</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="Lextm.SharpSnmpLib">
       <Version>12.1.0</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\SnmpEngine\SnmpEngine.csproj">
+      <Project>{114d0d49-19d3-47aa-b314-b0611f8a0327}</Project>
+      <Name>SnmpEngine</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

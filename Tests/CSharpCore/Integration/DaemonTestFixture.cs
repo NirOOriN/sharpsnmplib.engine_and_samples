@@ -1,6 +1,6 @@
 ﻿using Lextm.SharpSnmpLib.Messaging;
-using Samples.Objects;
-using Samples.Pipeline;
+using NooN.SnmpEngine;
+using NooN.SnmpEngine.Pipeline;
 using Lextm.SharpSnmpLib.Security;
 using System;
 using System.Collections.Generic;
@@ -11,7 +11,7 @@ using System.Reactive.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
-using Listener = Samples.Pipeline.Listener;
+using Listener = NooN.SnmpEngine.Pipeline.Listener;
 using Lextm.SharpSnmpLib;
 using TimeoutException = Lextm.SharpSnmpLib.Messaging.TimeoutException;
 

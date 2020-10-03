@@ -7,8 +7,8 @@
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 
-using Samples.Objects;
-using Samples.Pipeline;
+using NooN.SnmpEngine;
+using NooN.SnmpEngine.Pipeline;
 using Lextm.SharpSnmpLib;
 using Lextm.SharpSnmpLib.Messaging;
 using Lextm.SharpSnmpLib.Security;
@@ -21,7 +21,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Reflection;
 using System.Windows.Forms;
-using Listener = Samples.Pipeline.Listener;
+using Listener = NooN.SnmpEngine.Pipeline.Listener;
 
 namespace Samples.Agent
 {

@@ -1,6 +1,6 @@
 ﻿using System;
 using Lextm.SharpSnmpLib;
-using Samples.Objects;
+using NooN.SnmpEngine;
 using Xunit;
 
 namespace Samples.Unit.Objects

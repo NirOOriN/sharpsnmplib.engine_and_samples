@@ -12,7 +12,7 @@ using System.Globalization;
 using System.Text;
 using Lextm.SharpSnmpLib;
 using Lextm.SharpSnmpLib.Messaging;
-using Samples.Pipeline;
+using NooN.SnmpEngine.Pipeline;
 
 namespace Samples.Agent
 {

@@ -1,11 +1,11 @@
 ﻿using Lextm.SharpSnmpLib.Messaging;
-using Samples.Pipeline;
+using NooN.SnmpEngine.Pipeline;
 using Lextm.SharpSnmpLib.Security;
 using Moq;
 using System.Collections.Generic;
 using System.Net;
 using Xunit;
-using IListenerBinding = Samples.Pipeline.IListenerBinding;
+using IListenerBinding = NooN.SnmpEngine.Pipeline.IListenerBinding;
 using Lextm.SharpSnmpLib;
 
 namespace Samples.Unit.Pipeline

@@ -8,7 +8,7 @@
  */
 
 using System.Net;
-using Samples.Pipeline;
+using NooN.SnmpEngine.Pipeline;
 using Xunit;
 
 namespace Samples.Unit.Pipeline

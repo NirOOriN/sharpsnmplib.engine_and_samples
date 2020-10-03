@@ -7,7 +7,7 @@
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 
-using Samples.Pipeline;
+using NooN.SnmpEngine.Pipeline;
 using Xunit;
 
 namespace Samples.Unit.Pipeline

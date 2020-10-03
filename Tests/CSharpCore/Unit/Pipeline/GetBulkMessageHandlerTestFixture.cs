@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Net;
 using Lextm.SharpSnmpLib.Messaging;
-using Samples.Objects;
-using Samples.Pipeline;
+using NooN.SnmpEngine;
+using NooN.SnmpEngine.Pipeline;
 using Lextm.SharpSnmpLib.Security;
 using Moq;
 using Xunit;

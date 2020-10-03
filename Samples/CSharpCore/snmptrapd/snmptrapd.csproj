@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Samples.Engine\Samples.Engine.csproj" />
+    <ProjectReference Include="..\..\..\SnmpEngine\SnmpEngine.csproj" />
   </ItemGroup>
 
 </Project>

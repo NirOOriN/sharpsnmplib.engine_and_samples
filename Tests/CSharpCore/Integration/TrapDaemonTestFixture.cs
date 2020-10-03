@@ -1,5 +1,5 @@
 ﻿using Lextm.SharpSnmpLib.Messaging;
-using Samples.Pipeline;
+using NooN.SnmpEngine.Pipeline;
 using Lextm.SharpSnmpLib.Security;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
-using Listener = Samples.Pipeline.Listener;
+using Listener = NooN.SnmpEngine.Pipeline.Listener;
 using Lextm.SharpSnmpLib;
 
 namespace Samples.Integration

@@ -8,8 +8,8 @@
  */
 
 using Lextm.SharpSnmpLib;
-using Samples.Objects;
-using Samples.Pipeline;
+using NooN.SnmpEngine;
+using NooN.SnmpEngine.Pipeline;
 using Xunit;
 
 namespace Samples.Unit.Objects
