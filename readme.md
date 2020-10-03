@@ -1,7 +1,16 @@
-\#SNMP Library Samples
+\#SNMP Engine and Library Samples
 ======================
+This repository is orginally forked from https://github.com/lextudio/sharpsnmppro-samples.
+Sadly but failry the orginal developer decided to remove the SharpSnmpLib.Engine from the release and now is considered as Sample.
+This decision is reasoned by the decision that the original developer won't provide or guarantee any bug fix support on the code base. 
+
+The intention of this repo is to provide a compileable SharpSnmpLib.Engine, with a proper namespace and useful enhancements.
+Visual Studio 2017/2019 and .NET Core SDK is required to compile it on Windows.
+
+From The original repo:
+-----------------------
+
 [![Join the chat at https://gitter.im/sharpsnmplib](https://img.shields.io/gitter/room/sharpsnmplib/Lobby.svg?style=flat-square)](https://gitter.im/sharpsnmplib/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
-[![Azure DevOps builds](https://img.shields.io/azure-devops/build/lextudio/08d27f27-71b2-4158-90ec-565c685b3c05/10.svg?style=flat-square)](https://dev.azure.com/lextudio/sharpsnmp/_build?definitionId=10&_a=summary)
 
 This is the source code repository of #SNMP Library Samples. Visual Studio 2017/2019 and .NET Core SDK is required to compile it on Windows.
 
@@ -17,3 +26,5 @@ Issues can be created directly at GitHub.
 Questions should post to [StackOverflow.com](https://stackoverflow.com) with sharp-snmp tag. 
 
 Samples are not covered under LeXtudio commercial support.
+
+-----------------------
