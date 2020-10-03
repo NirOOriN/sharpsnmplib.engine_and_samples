@@ -1,11 +1,14 @@
 \#SNMP Engine and Library Samples
 ======================
+
 This repository is orginally forked from https://github.com/lextudio/sharpsnmppro-samples.
 Sadly but failry the orginal developer decided to remove the SharpSnmpLib.Engine from the release and now is considered as Sample.
-This decision is reasoned by the decision that the original developer won't provide or guarantee any bug fix support on the code base. 
+This is reasoned by the decision that the original developer won't provide or guarantee any bug fix support on the code base. 
 
 The intention of this repo is to provide a compileable SharpSnmpLib.Engine, with a proper namespace and useful enhancements.
 Visual Studio 2017/2019 and .NET Core SDK is required to compile it on Windows.
+
+
 
 From The original repo:
 -----------------------
