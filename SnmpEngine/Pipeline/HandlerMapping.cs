@@ -32,12 +32,6 @@ namespace NooN.SnmpEngine.Pipeline
     [SuppressMessage("Microsoft.Performance", "CA1812:AvoidUninstantiatedInternalClasses")]
     public sealed class HandlerMapping
     {
-#if !NET471
-        /// <summary>
-        /// .NET standard 1.3 only helper.
-        /// </summary>
-        public static ITypeResolver TypeResolver { get; set; } = new DefaultTypeResolver();
-#endif
         private readonly VersionFlags _versionMapping;
         private readonly CommandType _commandMapping;
         private readonly IMessageHandler _handler;
@@ -132,7 +126,6 @@ namespace NooN.SnmpEngine.Pipeline
 
         private static IMessageHandler CreateMessageHandler(string assemblyName, string type)
         {
-#if NET471
             foreach (var assembly in from assembly in AppDomain.CurrentDomain.GetAssemblies()
                                 let name = assembly.GetName().Name
                                 where string.Compare(name, assemblyName, StringComparison.OrdinalIgnoreCase) == 0
@@ -142,17 +135,6 @@ namespace NooN.SnmpEngine.Pipeline
             }
 
             return (IMessageHandler)Activator.CreateInstance(AppDomain.CurrentDomain.Load(assemblyName).GetType(type));
-#else
-            foreach (var assembly in from assembly in TypeResolver.GetAssemblies()
-                                     let name = assembly.GetName().Name
-                                     where string.Compare(name, assemblyName, StringComparison.OrdinalIgnoreCase) == 0
-                                     select assembly)
-            {
-                return (IMessageHandler)Activator.CreateInstance(assembly.GetType(type));
-            }
-
-            return (IMessageHandler)Activator.CreateInstance(TypeResolver.Load(assemblyName, type));
-#endif
         }
 
         /// <summary>
